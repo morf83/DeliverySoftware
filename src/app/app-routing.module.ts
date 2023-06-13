@@ -6,6 +6,7 @@ import { BachecaComponent } from './bacheca/bacheca.component';
 import { ProfiloComponent } from './profilo/profilo.component';
 import { ZucchettiComponent } from './zucchetti/zucchetti.component';
 import { LoginComponent } from './login/login.component';
+import { ModuliComponent } from './moduli/moduli.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -13,6 +14,9 @@ const routes: Routes = [
   { path: 'bacheca', component: BachecaComponent },
   { path: 'zucchetti', component: ZucchettiComponent },
   { path: 'profilo', component: ProfiloComponent },
+  { path: 'moduli', component: ModuliComponent },
+
+
 ];
 
 @NgModule({

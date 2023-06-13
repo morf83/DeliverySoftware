@@ -9,6 +9,7 @@ import { ProfiloComponent } from './profilo/profilo.component';
 import { BachecaComponent } from './bacheca/bacheca.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { ModuliComponent } from './moduli/moduli.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { LoginComponent } from './login/login.component';
     ProfiloComponent,
     BachecaComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    ModuliComponent
   ],
   imports: [
     BrowserModule,
