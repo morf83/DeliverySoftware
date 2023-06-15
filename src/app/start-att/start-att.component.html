@@ -1,8 +1,8 @@
 <div>
     <h1>Start attività</h1>
     <!--Invio kit dipendente-->
-    <h3 class="container mx-auto">Invia kit dipendente</h3>
-    <div class="container col-2">
+    <h3 class="container bg-gray-800">Invia kit dipendente</h3>
+    <div class="container col-md-4 p-5 my-5 border">
         <form>
             <div class="form-group">
               <label for="exampleInputEmail1">Indirizzo email</label>
@@ -14,7 +14,72 @@
     </div>
     <div>
       <h3 class="container mx-auto">Modulo start attività</h3>
-      
+        <div class="container p-5 my-5 border">
+            <form class="row g-3">
+                <div class="col-md-6">
+                <label for="inputNome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="inputNome">
+                </div>
+                <div class="col-md-6">
+                <label for="inputCognome" class="form-label">Cognome</label>
+                <input type="text" class="form-control" id="inputCognome">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputDataNascita" class="form-label">data di nascita</label>
+                    <input type="date" class="form-control" id="inputDataNascita">
+                    </div>
+                <div class="col-md-8">
+                    <label for="inputLuogoNascita" class="form-label">Luogo di nascita</label>
+                    <input type="text" class="form-control" id="inputLuogoNascita">
+                    </div>
+                <div class="col-12">
+                <label for="inputIndirizzo" class="form-label">Indirizzo</label>
+                <input type="text" class="form-control" id="inputIndirizzo" placeholder="Indirizzo">
+                </div>
+                <div class="col-6">
+                <label for="inputCitta" class="form-label">Città</label>
+                <input type="text" class="form-control" id="inputCitta" placeholder="Piano, interno..">
+                </div>
+                <div class="col-md-6">
+                <label for="inputStato" class="form-label">Stato</label>
+                <input type="text" class="form-control" id="inputStato">
+                </div>
+                <br>
+                <div class="col-md-12">
+                    <fieldset class="">Documento d'identità
+                        <div class="form-check col-md-4">
+                            <input class="form-check-input" type="radio" name="tipoDocumento" id="flexRadioDefault1">
+                            <label class="form-check-label" for="tipoDocumento">
+                            Carta Identità
+                            </label>
+                        </div>
+                        <div class="form-check col-md-4">
+                            <input class="form-check-input" type="radio" name="tipoDocumento" id="flexRadioDefault2">
+                            <label class="form-check-label" for="tipoDocumento">
+                            Patente di guida
+                            </label>
+                        </div>
+                        <div class="form-check col-md-4">
+                            <input class="form-check-input" type="radio" name="tipoDocumento" id="flexRadioDefault3">
+                            <label class="form-check-label" for="tipoDocumento">
+                            Passaporto
+                            </label>
+                        </div>
+                        <div class="col-md-4">
+                        <label for="inputNumDoc" class="form-label">numero documento</label>
+                        <input type="text" class="form-control" id="inputNumDoc">
+                        </div>
+                        <div class="col-md-4">
+                        <label for="caricaDoc">Carica documento</label>
+                        <input type="file" class="form-control-file" id="caricaDoc">
+                        </div>
+                    </fieldset>
+                    <div class="p-1 my-1">
+                        <button type="submit" class="btn btn-primary">Invio</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
