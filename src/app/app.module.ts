@@ -10,6 +10,7 @@ import { BachecaComponent } from './bacheca/bacheca.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ModuliComponent } from './moduli/moduli.component';
+import { StartAttComponent } from './start-att/start-att.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ModuliComponent } from './moduli/moduli.component';
     BachecaComponent,
     HomeComponent,
     LoginComponent,
-    ModuliComponent
+    ModuliComponent,
+    StartAttComponent
   ],
   imports: [
     BrowserModule,

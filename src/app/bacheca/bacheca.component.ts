@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./bacheca.component.css']
 })
 export class BachecaComponent {
-
+vista = 0
 }

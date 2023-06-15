@@ -5,3 +5,12 @@ ul#menu li {
     padding: 0 2px;
 }
 
+.h1 {
+    text-align:center
+}
+.html {
+    height: 100%;
+}
+.body {
+    min-height: 100%;
+}
